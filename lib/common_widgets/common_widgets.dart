@@ -5,7 +5,7 @@ PreferredSizeWidget commonAppbar(String name) {
     title: Text(
       name,
       style: TextStyle(
-        fontSize: 13.0,
+        fontSize: 18.0,
         fontWeight: FontWeight.w300,
       ),
     ),

@@ -15,7 +15,7 @@ class PostListingData {
 
   toMap() {
     return {
-      "id": id,
+      "id": id.toString(),
       "name": name,
       "message": message,
       "designation": designation,
@@ -29,11 +29,11 @@ class PostListingData {
       map['name'],
       map['message'],
       map['designation'],
-      map['employerName'],
+      map['employer_name'],
     );
   }
 
-  static List<PostListingData> fromMapList(List<Map<String, dynamic>> list) {
+  static List<PostListingData> fromMapList(List<dynamic> list) {
     List<PostListingData> _list = [];
     for (Map<String, dynamic> map in list) {
       _list.add(objectFromMap(map));
