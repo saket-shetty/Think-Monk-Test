@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.teach_us">
+  <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="teach_us"
+        android:label="Think Monk Test"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

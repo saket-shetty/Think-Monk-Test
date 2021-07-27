@@ -27,6 +27,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
         onPressed: () {
           submitData();
         },
+        child: Icon(Icons.add),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
